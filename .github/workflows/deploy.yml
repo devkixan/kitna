@@ -45,8 +45,10 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: yarn # or pnpm install / yarn install / bun install
+      - name: Build with Tailwind CSS
+        run: yarn run css # or pnpm css / yarn css / bun run css
       - name: Build with VitePress
-        run: yarn run dev &&yarn run build # or pnpm build / yarn build / bun run build
+        run: yarn run dev # or pnpm build / yarn build / bun run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
