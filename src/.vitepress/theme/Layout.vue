@@ -6,8 +6,8 @@ const { site, frontmatter } = useData()
 </script>
 
 <template>
-  <div class="ks:bg-zinc-300 ks:h-screen ks:overflow-y-auto">
-    <section>
+  <div class="ks:h-screen ks:overflow-y-auto">
+    <section class="ks:relative ks:z-0 ks:bg-zinc-300">
       <div class="ks:container ks:mx-auto ks:px-4">
         <div class="ks:flex ks:justify-center">
           <div class="ks:w-sm ks:relative ks:z-0 ks:flex ks:flex-col ks:justify-center">
@@ -46,6 +46,15 @@ const { site, frontmatter } = useData()
           </div>
         </div>
       </div>
+      <svg class="ks:rounded-b-3xl ks:pointer-events-none ks:absolute ks:inset-0 ks:size-full ks:mix-blend-overlay" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" preserveAspectRatio="none">
+        <defs>
+            <filter id="noise-filter">
+                <feTurbulence type="turbulence" baseFrequency="0.6" numOctaves="1" stitchTiles="stitch" result="noise"></feTurbulence>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" result="coloprimaryNoise"></feColorMatrix>
+            </filter>
+        </defs>
+        <rect width="100%" height="100%" filter="url(#noise-filter)"></rect>
+      </svg>
     </section>
 
     <section class="ks:-mt-40 ks:min-h-screen ks:border-t ks:border-white/50 ks:bg-zinc-200 ks:relative ks:shadow-[-10px_0_20px_rgba(0,0,0,0.05)]">
@@ -64,14 +73,4 @@ const { site, frontmatter } = useData()
     <a href="/" class="ks:text-lg">Home</a>
     <Content />
   </div> -->
-
-  <svg class="ks:rounded-b-3xl ks:pointer-events-none ks:fixed ks:inset-0 ks:size-full ks:mix-blend-overlay" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" preserveAspectRatio="none">
-    <defs>
-        <filter id="noise-filter">
-            <feTurbulence type="turbulence" baseFrequency="0.6" numOctaves="1" stitchTiles="stitch" result="noise"></feTurbulence>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" result="coloprimaryNoise"></feColorMatrix>
-        </filter>
-    </defs>
-    <rect width="100%" height="100%" filter="url(#noise-filter)"></rect>
-  </svg>
 </template>
