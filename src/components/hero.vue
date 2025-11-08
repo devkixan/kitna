@@ -16,9 +16,9 @@ const { site } = useData()
             </div>
             <div
               class="ks:w-10 ks:-ml-4 ks:relative ks:z-20 ks:origin-bottom-right ks:-skew-x-20 ks:h-full ks:bg-linear-to-t ks:from-zinc-800 ks:from-5% ks:via-20% ks:via-zinc-600 ks:to-100% ks:to-zinc-700 ks:rounded-br-sm ks:overflow-clip ks:flex ks:items-center ks:justify-center">
-              <span
-                class="ks:[writing-mode:sideways-lr] ks:text-white/40 ks:tracking-wider ks:text-nowrap ks:mix-blend-color-darken">#developer
-                #software-engineer</span>
+              <span class="ks:[writing-mode:sideways-lr] ks:text-white/40 ks:tracking-wider ks:text-nowrap ks:mix-blend-color-darken">
+                #FrontendDeveloper #UI/UX Designer #Salesforce Developer
+              </span>
             </div>
           </div>
           <div
