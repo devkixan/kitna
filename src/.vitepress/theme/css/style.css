@@ -304,6 +304,9 @@
   .ks\:grid {
     display: grid;
   }
+  .ks\:inline-flex {
+    display: inline-flex;
+  }
   .ks\:aspect-video {
     aspect-ratio: var(--ks-aspect-video);
   }
@@ -600,6 +603,12 @@
   }
   .ks\:p-4 {
     padding: calc(var(--ks-spacing) * 4);
+  }
+  .ks\:px-2 {
+    padding-inline: calc(var(--ks-spacing) * 2);
+  }
+  .ks\:px-2\.5 {
+    padding-inline: calc(var(--ks-spacing) * 2.5);
   }
   .ks\:px-3 {
     padding-inline: calc(var(--ks-spacing) * 3);
@@ -1005,6 +1014,11 @@
   .ks\:sm\:gap-10 {
     @media (width >= 40rem) {
       gap: calc(var(--ks-spacing) * 10);
+    }
+  }
+  .ks\:sm\:px-5 {
+    @media (width >= 40rem) {
+      padding-inline: calc(var(--ks-spacing) * 5);
     }
   }
 }
