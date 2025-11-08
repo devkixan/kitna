@@ -732,6 +732,10 @@
     --tw-grayscale: grayscale(100%);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+  .ks\:sepia {
+    --tw-sepia: sepia(100%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
   .ks\:backdrop-blur-2xl {
     --tw-backdrop-blur: blur(var(--ks-blur-2xl));
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
@@ -820,6 +824,34 @@
     &:is(:where(.ks\:group):hover *) {
       @media (hover: hover) {
         color: var(--ks-color-blue-900);
+      }
+    }
+  }
+  .ks\:group-hover\:text-primary-500 {
+    &:is(:where(.ks\:group):hover *) {
+      @media (hover: hover) {
+        color: var(--ks-color-primary-500);
+      }
+    }
+  }
+  .ks\:group-hover\:text-primary-600 {
+    &:is(:where(.ks\:group):hover *) {
+      @media (hover: hover) {
+        color: var(--ks-color-primary-600);
+      }
+    }
+  }
+  .ks\:group-hover\:text-primary-700 {
+    &:is(:where(.ks\:group):hover *) {
+      @media (hover: hover) {
+        color: var(--ks-color-primary-700);
+      }
+    }
+  }
+  .ks\:group-hover\:text-primary-900 {
+    &:is(:where(.ks\:group):hover *) {
+      @media (hover: hover) {
+        color: var(--ks-color-primary-900);
       }
     }
   }
