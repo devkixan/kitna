@@ -76,7 +76,7 @@ const { site, frontmatter } = useData()
     </section>
 
     <section
-      class="ks:-mt-40 ks:min-h-screen ks:border-t ks:border-white/50 ks:bg-zinc-200 ks:relative ks:shadow-[-10px_0_20px_rgba(0,0,0,0.05)]">
+      class="ks:-mt-40 ks:min-h-screen ks:border-t ks:border-white/50 ks:bg-zinc-200 ks:relative ks:z-0 ks:shadow-[-10px_0_20px_rgba(0,0,0,0.05)]">
       <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
         <div class="ks:grid ks:grid-cols-2 ks:items-center ks:gap-2 ks:py-4">
           <a href="" class="ks:size-12 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100 ks:rounded-full">
