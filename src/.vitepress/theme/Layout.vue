@@ -7,11 +7,11 @@ const { site, frontmatter } = useData()
 
 <template>
   <div class="ks:h-screen ks:overflow-y-auto">
-    <section class="ks:relative ks:z-0 ks:bg-zinc-300">
+    <section class="ks:bg-zinc-300 ks:sticky ks:z-0 ks:top-0">
       <div class="ks:container ks:mx-auto ks:px-4">
         <div class="ks:flex ks:justify-center">
           <div class="ks:w-sm ks:relative ks:z-0 ks:flex ks:flex-col ks:justify-center">
-            <div class="ks:mx-auto ks:h-40 ks:flex ks:items-center ks:justify-center">
+            <div class="ks:mx-auto ks:h-40 ks:pointer-events-none ks:select-none ks:flex ks:items-center ks:justify-center">
               <div
                 class="ks:w-10 ks:-mr-4 ks:relative ks:-z-10 ks:origin-bottom-left ks:skew-x-20 ks:h-full  ks:bg-linear-to-t ks:from-zinc-900 ks:from-5% ks:via-20% ks:via-zinc-800 ks:to-100% ks:to-zinc-800 ks:flex ks:items-center ks:justify-center">
               </div>
