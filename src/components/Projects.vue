@@ -1,6 +1,6 @@
 <template>
   <section
-    class="ks:-mt-40 ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0-10px_10px_rgba(0,0,0,0.028)]">
+    class="ks:-mt-32 ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0-10px_10px_rgba(0,0,0,0.028)]">
     <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
       <div class="ks:pt-15">
         <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:mb-15">

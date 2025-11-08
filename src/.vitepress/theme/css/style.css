@@ -276,6 +276,15 @@
   .ks\:-mt-7 {
     margin-top: calc(var(--ks-spacing) * -7);
   }
+  .ks\:-mt-32 {
+    margin-top: calc(var(--ks-spacing) * -32);
+  }
+  .ks\:-mt-34 {
+    margin-top: calc(var(--ks-spacing) * -34);
+  }
+  .ks\:-mt-38 {
+    margin-top: calc(var(--ks-spacing) * -38);
+  }
   .ks\:-mt-40 {
     margin-top: calc(var(--ks-spacing) * -40);
   }
