@@ -719,6 +719,11 @@
       }
     }
   }
+  .ks\:motion-safe\:scroll-smooth {
+    @media (prefers-reduced-motion: no-preference) {
+      scroll-behavior: smooth;
+    }
+  }
 }
 @property --tw-translate-x {
   syntax: "*";
