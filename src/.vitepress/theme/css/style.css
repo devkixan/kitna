@@ -491,6 +491,9 @@
   .ks\:border-zinc-400 {
     border-color: var(--ks-color-zinc-400);
   }
+  .ks\:bg-primary-100 {
+    background-color: var(--ks-color-primary-100);
+  }
   .ks\:bg-primary-200 {
     background-color: var(--ks-color-primary-200);
   }
@@ -613,8 +616,14 @@
   .ks\:py-5 {
     padding-block: calc(var(--ks-spacing) * 5);
   }
+  .ks\:py-10 {
+    padding-block: calc(var(--ks-spacing) * 10);
+  }
   .ks\:py-15 {
     padding-block: calc(var(--ks-spacing) * 15);
+  }
+  .ks\:pb-10 {
+    padding-bottom: calc(var(--ks-spacing) * 10);
   }
   .ks\:text-center {
     text-align: center;
@@ -694,6 +703,58 @@
   }
   .ks\:shadow-\[-10px_0_20px_rgba\(0\,0\,0\,0\.05\)\] {
     --tw-shadow: -10px 0 20px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[-20px_-10px_5px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: -20px -10px 5px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[-20px_0_5px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: -20px 0 5px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[-20px_0_10px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: -20px 0 10px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[-40px_0_10px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: -40px 0 10px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[-100px_0_5px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: -100px 0 5px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-5px_8px_rgba\(0\,0\,0\,0\.03\)\] {
+    --tw-shadow: 0-5px 8px var(--tw-shadow-color, rgba(0,0,0,0.03));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-5px_8px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: 0-5px 8px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-5px_8px_rgba\(0\,0\,0\,0\.025\)\] {
+    --tw-shadow: 0-5px 8px var(--tw-shadow-color, rgba(0,0,0,0.025));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-5px_10px_rgba\(0\,0\,0\,0\.03\)\] {
+    --tw-shadow: 0-5px 10px var(--tw-shadow-color, rgba(0,0,0,0.03));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-5px_10px_rgba\(0\,0\,0\,0\.025\)\] {
+    --tw-shadow: 0-5px 10px var(--tw-shadow-color, rgba(0,0,0,0.025));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-5px_10px_rgba\(0\,0\,0\,0\.028\)\] {
+    --tw-shadow: 0-5px 10px var(--tw-shadow-color, rgba(0,0,0,0.028));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-10px_10px_rgba\(0\,0\,0\,0\.05\)\] {
+    --tw-shadow: 0-10px 10px var(--tw-shadow-color, rgba(0,0,0,0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .ks\:shadow-\[0-10px_10px_rgba\(0\,0\,0\,0\.028\)\] {
+    --tw-shadow: 0-10px 10px var(--tw-shadow-color, rgba(0,0,0,0.028));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .ks\:shadow-inner {

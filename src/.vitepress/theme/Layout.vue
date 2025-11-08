@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import Hero from '../../components/hero.vue'
 import Projects from '../../components/Projects.vue'
+import Footer from '../../components/footer.vue'
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData()
@@ -10,7 +11,10 @@ const { site, frontmatter } = useData()
 <template>
   <div class="ks:h-screen ks:overflow-y-auto ks:motion-safe:scroll-smooth">
     <Hero />
+
     <Projects />
+
+    <Footer />
   </div>
 
   <!-- <div v-if="frontmatter.home" class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:h-screen">
