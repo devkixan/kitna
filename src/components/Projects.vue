@@ -19,10 +19,10 @@
         <div class="ks:flex ks:flex-col ks:gap-6 ks:*:not-last:pb-6 ks:divide-y ks:divide-white/40">
           <template v-for="project in projects" :key="project.id">
             <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group">
-              <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-zinc-300 ks:object-cover ks:rounded-xl ks:[font-size:0]">
+              <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-zinc-300 ks:object-cover ks:object-top-left ks:rounded-xl ks:[font-size:0]">
               <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
                 <div>
-                  <h3 class="ks:font-medium ks:mb-px">
+                  <h3 class="ks:font-medium ks:mb-px ks:group-hover:text-blue-900 ks:transition ks:duration-300">
                     {{ project.name }}
                   </h3>
                   <p class="ks:text-zinc-500">
@@ -46,6 +46,7 @@
 <script setup>
 import SlineWebsiteRedesign from '../images/works/sline-website-redesign.png';
 import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.jpg';
+import RayashipWebsiteFrontendDevelopment from '../images/works/rayaship-website-frontend-development.png';
 const projects = [
   {
     id: 1,
@@ -60,6 +61,13 @@ const projects = [
     description: "I redesigned and developed ZeewFood.eu's web ordering platform for a clean, mobile-friendly experience.",
     image: ZeewFoodAppRedesign,
     link: 'https://www.zeew.eu'
+  },
+  {
+    id: 3,
+    name: 'Rayaship Website Frontend Development',
+    description: "Developed Rayaship's website frontend on the Salesforce platform, creating a responsive and user-friendly interface.",
+    image: RayashipWebsiteFrontendDevelopment,
+    link: 'https://www.rayaship.com/'
   }
 ]
 </script>

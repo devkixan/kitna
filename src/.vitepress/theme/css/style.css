@@ -435,6 +435,9 @@
   .ks\:origin-bottom-right {
     transform-origin: 100% 100%;
   }
+  .ks\:origin-top-left {
+    transform-origin: 0 0;
+  }
   .ks\:-translate-x-0\.5 {
     --tw-translate-x: calc(var(--ks-spacing) * -0.5);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -751,6 +754,12 @@
   .ks\:object-cover {
     object-fit: cover;
   }
+  .ks\:object-top {
+    object-position: top;
+  }
+  .ks\:object-top-left {
+    object-position: left top;
+  }
   .ks\:p-4 {
     padding: calc(var(--ks-spacing) * 4);
   }
@@ -1048,6 +1057,20 @@
       @media (hover: hover) {
         --tw-translate-x: calc(var(--ks-spacing) * 1);
         translate: var(--tw-translate-x) var(--tw-translate-y);
+      }
+    }
+  }
+  .ks\:group-hover\:text-blue-900 {
+    &:is(:where(.ks\:group):hover *) {
+      @media (hover: hover) {
+        color: var(--ks-color-blue-900);
+      }
+    }
+  }
+  .ks\:group-hover\:text-zinc-900 {
+    &:is(:where(.ks\:group):hover *) {
+      @media (hover: hover) {
+        color: var(--ks-color-zinc-900);
       }
     }
   }
