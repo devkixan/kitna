@@ -3,6 +3,7 @@ import { useData } from 'vitepress'
 import Hero from '../../components/hero.vue'
 import Projects from '../../components/Projects.vue'
 import Footer from '../../components/footer.vue'
+import Testimonial from '../../components/testimonial.vue'
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData()
@@ -13,6 +14,8 @@ const { site, frontmatter } = useData()
     <Hero />
 
     <Projects />
+    
+    <Testimonial />
 
     <Footer />
   </div>
