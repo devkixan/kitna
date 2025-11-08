@@ -1,6 +1,7 @@
 {
   "license": "MIT",
   "dependencies": {
+    "@phosphor-icons/vue": "^2.2.1",
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17",
     "vitepress": "^2.0.0-alpha"

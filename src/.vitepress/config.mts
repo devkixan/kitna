@@ -5,5 +5,11 @@ export default defineConfig({
   lang: "en-US",
   base: "/kitna",
   title: "Kishan Sunar",
-  description: "Portfolio"
+  description: "Portfolio",
+  themeConfig: {
+    socialLinks: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/kishan-sunar-4b1755200/' },
+      { icon: 'github', link: 'https://github.com/kishansunar' },
+    ],
+  },
 })

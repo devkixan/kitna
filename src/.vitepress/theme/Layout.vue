@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
+import Logo from '../../components/logo.vue'
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData()
@@ -31,6 +32,20 @@ const { site, frontmatter } = useData()
                 class="ks:mx-auto ks:mb-8 ks:text-xs ks:bg-zinc-300 ks:ring ks:ring-white/60 ks:w-15 ks:h-3 ks:rounded-full ks:block">
                 <span
                   class="ks:w-10 ks:h-[8px] ks:-translate-x-0.5 ks:rounded-bl-sm ks:mx-auto ks:relative ks:z-10 ks:skew-x-12 ks:bg-linear-to-t ks:from-zinc-800 ks:from-5% ks:via-20% ks:via-zinc-700 ks:to-100% ks:to-zinc-700 ks:block"></span>
+              </div>
+
+
+              <a href="" class="ks:absolute ks:top-2 ks:left-2 ks:size-10 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100 ks:rounded-full">
+                <Logo class="ks:size-6 ks:text-zinc-700" />
+              </a>
+
+              <div class="ks:absolute ks:top-2 ks:right-2 ks:flex ks:gap-2">
+                <a href="" class="ks:size-10 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100 ks:rounded-full ks:hover:bg-zinc-200">
+                  <PhLinkedinLogo weight="bold" class="ks:size-5 ks:text-zinc-700" />
+                </a>
+                <a :href="site.themeConfig.socialLinks.github ?? ''" class="ks:size-10 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100 ks:rounded-full ks:hover:bg-zinc-200">
+                  <PhGithubLogo weight="bold" class="ks:size-5 ks:text-zinc-700" />
+                </a>
               </div>
 
               <div class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:relative">
@@ -79,24 +94,8 @@ const { site, frontmatter } = useData()
       class="ks:-mt-40 ks:min-h-screen ks:border-t ks:border-white/50 ks:bg-zinc-200 ks:relative ks:z-0 ks:shadow-[-10px_0_20px_rgba(0,0,0,0.05)]">
       <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
         <div class="ks:grid ks:grid-cols-2 ks:items-center ks:gap-2 ks:py-4">
-          <a href="" class="ks:size-12 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100 ks:rounded-full">
-            <svg class="ks:size-7 ks:text-zinc-700" viewBox="0 0 172 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0 17.2181L45.2329 54.3612L56.054 80.3444V91.9569L81.3949 58.1584L106.736 24.36L127.472 12.18L148.209 6.10352e-05L51.1056 159.012L0 17.2181Z"
-                fill="currentColor" />
-              <path d="M90.9274 115.881L102.236 99.4954L171.931 159.029L126.121 159.029L90.9274 115.881Z"
-                fill="currentColor" />
-            </svg>
-          </a>
-          <div class="ks:flex ks:justify-end">
-            <div class="ks:flex ks:justify-end ks:gap-px ks:rounded-full ks:p-[3px] ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100">
-              <a href="" class="ks:py-2 ks:px-4 ks:font-medium ks:text-sm ks:rounded-full ks:bg-zinc-400/30 ks:text-zinc-800">
-                <span>Projects</span>
-              </a>
-              <a href="" class="ks:py-2 ks:px-4 ks:font-medium ks:text-sm ks:rounded-full ks:text-zinc-700">
-                <span>Contact Me</span>
-              </a>
-            </div>
+          <div>
+            Hello
           </div>
         </div>
       </div>
