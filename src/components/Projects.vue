@@ -47,20 +47,22 @@
 import SlineWebsiteRedesign from '../images/works/sline-website-redesign.png';
 import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.jpg';
 import RayashipWebsiteFrontendDevelopment from '../images/works/rayaship-website-frontend-development.png';
+import TheFireflyTechnologyWebsiteRedesign from '../images/works/the-firefly-technology-website-redesign.png';
+
 const projects = [
   {
     id: 1,
-    name: 'Redesign Sline.ma Website',
-    description: 'Redesigned the website for Sline.in to improve the user experience and increase the conversion rate.',
-    image: SlineWebsiteRedesign,
-    link: 'https://www.sline.ma'
-  },
-  {
-    id: 2,
     name: 'Web Food Ordering Platform Redesign',
     description: "I redesigned and developed ZeewFood.eu's web ordering platform for a clean, mobile-friendly experience.",
     image: ZeewFoodAppRedesign,
     link: 'https://www.zeew.eu'
+  },
+  {
+    id: 2,
+    name: 'Redesign Sline.ma Website',
+    description: 'Redesigned the website for Sline.in to improve the user experience and increase the conversion rate.',
+    image: SlineWebsiteRedesign,
+    link: 'https://www.sline.ma'
   },
   {
     id: 3,
@@ -68,6 +70,13 @@ const projects = [
     description: "Developed Rayaship's website frontend on the Salesforce platform, creating a responsive and user-friendly interface.",
     image: RayashipWebsiteFrontendDevelopment,
     link: 'https://www.rayaship.com/'
+  },
+  {
+    id: 4,
+    name: 'The Firefly Technology Website Redesign',
+    description: "Redesigned The Firefly Technology's website to improve the user experience.",
+    image: TheFireflyTechnologyWebsiteRedesign,
+    link: 'https://thefireflytech.com/'
   }
 ]
 </script>
