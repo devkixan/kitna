@@ -360,8 +360,14 @@
   .ks\:justify-end {
     justify-content: flex-end;
   }
+  .ks\:gap-1 {
+    gap: calc(var(--ks-spacing) * 1);
+  }
   .ks\:gap-2 {
     gap: calc(var(--ks-spacing) * 2);
+  }
+  .ks\:gap-px {
+    gap: 1px;
   }
   .ks\:overflow-clip {
     overflow: clip;
