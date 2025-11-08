@@ -1,0 +1,65 @@
+<template>
+  <section
+    class="ks:-mt-40 ks:min-h-screen ks:border-t ks:border-white/50 ks:bg-zinc-200 ks:relative ks:z-0 ks:shadow-[-10px_0_20px_rgba(0,0,0,0.05)]">
+    <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
+      <div class="ks:py-15">
+        <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:mb-15">
+          <div>
+            <h2 class="ks:text-2xl ks:text-zinc-900 ks:font-medium">
+              Featured Work
+            </h2>
+          </div>
+          <div class="ks:sm:col-span-3">
+            <p class="ks:text-zinc-600">
+              A showcase of digital journeys crafted for agencies, startups, and brands that value creativity with purpose.
+            </p>
+          </div>
+        </div>
+
+        <div class="ks:flex ks:flex-col ks:gap-6 ks:*:not-last:pb-6 ks:divide-y ks:divide-white/40">
+          <template v-for="project in projects" :key="project.id">
+            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group">
+              <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-zinc-300 ks:object-cover ks:rounded-xl ks:[font-size:0]">
+              <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
+                <div>
+                  <h3 class="ks:font-medium ks:mb-px">
+                    {{ project.name }}
+                  </h3>
+                  <p class="ks:text-zinc-500">
+                    {{ project.description }}
+                  </p>
+                </div>
+                <div class="ks:shrink-0">
+                  <a :href="project.link" target="_blank"  class="ks:ring ks:ring-zinc-100 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-zinc-400/5 ks:hover:bg-zinc-400/15 ks:shadow-inner ks:shadow-white/20 ks:flex ks:items-center ks:gap-1">
+                    <span>View</span>
+                    <PhArrowLineUpRight weight="bold" class="ks:size-4 ks:text-zinc-500" />
+                  </a>
+                </div>
+              </div>
+            </article>
+          </template>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+<script setup>
+import SlineWebsiteRedesign from '../images/works/sline-website-redesign.png';
+import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.jpg';
+const projects = [
+  {
+    id: 1,
+    name: 'Redesign Sline.ma Website',
+    description: 'Redesigned the website for Sline.in to improve the user experience and increase the conversion rate.',
+    image: SlineWebsiteRedesign,
+    link: 'https://www.sline.ma'
+  },
+  {
+    id: 2,
+    name: 'Web Food Ordering Platform Redesign',
+    description: "I redesigned and developed ZeewFood.eu's web ordering platform for a clean, mobile-friendly experience.",
+    image: ZeewFoodAppRedesign,
+    link: 'https://www.zeew.eu'
+  }
+]
+</script>
