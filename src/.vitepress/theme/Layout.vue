@@ -13,9 +13,18 @@ const { site, frontmatter } = useData()
     <section
       class="ks:-mt-40 ks:min-h-screen ks:border-t ks:border-white/50 ks:bg-zinc-200 ks:relative ks:z-0 ks:shadow-[-10px_0_20px_rgba(0,0,0,0.05)]">
       <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
-        <div class="ks:grid ks:grid-cols-2 ks:items-center ks:gap-2 ks:py-4">
-          <div>
-            Hello
+        <div class="ks:py-15">
+          <div class="ks:grid ks:sm:grid-cols-4 ks:items-center ks:gap-4 ks:sm:gap-10">
+            <div>
+              <h2 class="ks:text-2xl ks:font-bold">
+                Featured Work
+              </h2>
+            </div>
+            <div class="ks:sm:col-span-3">
+              <p class="ks:text-zinc-600">
+                A showcase of digital journeys crafted for agencies, startups, and brands that value creativity with purpose.
+              </p>
+            </div>
           </div>
         </div>
       </div>

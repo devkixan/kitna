@@ -60,6 +60,7 @@
     --ks-color-white: #fff;
     --ks-spacing: 0.25rem;
     --ks-container-sm: 24rem;
+    --ks-container-2xl: 42rem;
     --ks-container-4xl: 56rem;
     --ks-text-xs: 0.75rem;
     --ks-text-xs--line-height: calc(1 / 0.75);
@@ -74,6 +75,7 @@
     --ks-text-4xl: 2.25rem;
     --ks-text-4xl--line-height: calc(2.5 / 2.25);
     --ks-font-weight-medium: 500;
+    --ks-font-weight-semibold: 600;
     --ks-font-weight-bold: 700;
     --ks-tracking-wider: 0.05em;
     --ks-radius-sm: 0.25rem;
@@ -312,6 +314,12 @@
   .ks\:mb-2 {
     margin-bottom: calc(var(--ks-spacing) * 2);
   }
+  .ks\:mb-4 {
+    margin-bottom: calc(var(--ks-spacing) * 4);
+  }
+  .ks\:mb-5 {
+    margin-bottom: calc(var(--ks-spacing) * 5);
+  }
   .ks\:mb-8 {
     margin-bottom: calc(var(--ks-spacing) * 8);
   }
@@ -380,6 +388,9 @@
   .ks\:w-sm {
     width: var(--ks-container-sm);
   }
+  .ks\:max-w-2xl {
+    max-width: var(--ks-container-2xl);
+  }
   .ks\:max-w-4xl {
     max-width: var(--ks-container-4xl);
   }
@@ -408,6 +419,9 @@
   .ks\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .ks\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
   .ks\:flex-col {
     flex-direction: column;
   }
@@ -419,6 +433,12 @@
   }
   .ks\:gap-2 {
     gap: calc(var(--ks-spacing) * 2);
+  }
+  .ks\:gap-4 {
+    gap: calc(var(--ks-spacing) * 4);
+  }
+  .ks\:gap-10 {
+    gap: calc(var(--ks-spacing) * 10);
   }
   .ks\:overflow-clip {
     overflow: clip;
@@ -574,6 +594,12 @@
   .ks\:py-5 {
     padding-block: calc(var(--ks-spacing) * 5);
   }
+  .ks\:py-15 {
+    padding-block: calc(var(--ks-spacing) * 15);
+  }
+  .ks\:py-20 {
+    padding-block: calc(var(--ks-spacing) * 20);
+  }
   .ks\:text-center {
     text-align: center;
   }
@@ -605,6 +631,14 @@
     --tw-font-weight: var(--ks-font-weight-bold);
     font-weight: var(--ks-font-weight-bold);
   }
+  .ks\:font-medium {
+    --tw-font-weight: var(--ks-font-weight-medium);
+    font-weight: var(--ks-font-weight-medium);
+  }
+  .ks\:font-semibold {
+    --tw-font-weight: var(--ks-font-weight-semibold);
+    font-weight: var(--ks-font-weight-semibold);
+  }
   .ks\:tracking-wider {
     --tw-tracking: var(--ks-tracking-wider);
     letter-spacing: var(--ks-tracking-wider);
@@ -623,6 +657,9 @@
   }
   .ks\:text-zinc-500 {
     color: var(--ks-color-zinc-500);
+  }
+  .ks\:text-zinc-600 {
+    color: var(--ks-color-zinc-600);
   }
   .ks\:text-zinc-700 {
     color: var(--ks-color-zinc-700);
@@ -722,6 +759,26 @@
   .ks\:motion-safe\:scroll-smooth {
     @media (prefers-reduced-motion: no-preference) {
       scroll-behavior: smooth;
+    }
+  }
+  .ks\:min-sm\:col-span-3 {
+    @media (width >= 40rem) {
+      grid-column: span 3 / span 3;
+    }
+  }
+  .ks\:sm\:col-span-3 {
+    @media (width >= 40rem) {
+      grid-column: span 3 / span 3;
+    }
+  }
+  .ks\:sm\:grid-cols-4 {
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .ks\:sm\:gap-10 {
+    @media (width >= 40rem) {
+      gap: calc(var(--ks-spacing) * 10);
     }
   }
 }

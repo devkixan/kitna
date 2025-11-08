@@ -57,18 +57,7 @@ const { site } = useData()
                 <img src="/profile.png" alt="Profile"
                   class="ks:grayscale ks:w-full ks:h-full ks:object-cover ks:mask-alpha ks:mask-b-black ks:mask-b-from-50% ks:mask-t-transparent" />
               </figure>
-              <div class="ks:-mt-10 ks:flex ks:not-sm:flex-col ks:gap-2 ks:items-center ks:justify-center">
-                <button
-                  class="ks:inline-block ks:mb-2 ks:text-sm ks:text-zinc-500 ks:font-sm ks:px-4 ks:py-2 ks:shadow-inner ks:shadow-white/20 ks:ring ks:ring-white ks:bg-white/70 ks:backdrop-blur-2xl ks:rounded-full">
-                  <span>Github</span>
-                </button>
-                <button
-                  class="ks:inline-block ks:mb-2 ks:text-sm ks:text-white ks:font-sm ks:px-4 ks:py-2 ks:shadow-inner ks:shadow-zinc-500 ks:ring ks:ring-zinc-300 ks:bg-zinc-700 ks:backdrop-blur-2xl ks:rounded-full">
-                  <span>Github</span>
-                </button>
-              </div>
             </div>
-
           </div>
         </div>
       </div>
