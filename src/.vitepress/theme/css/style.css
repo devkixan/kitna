@@ -443,6 +443,12 @@
   .ks\:bg-zinc-100 {
     background-color: var(--ks-color-zinc-100);
   }
+  .ks\:bg-zinc-100\/70 {
+    background-color: var(--ks-color-zinc-100);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-100) 70%, transparent);
+    }
+  }
   .ks\:bg-zinc-200 {
     background-color: var(--ks-color-zinc-200);
   }
@@ -451,6 +457,24 @@
   }
   .ks\:bg-zinc-400 {
     background-color: var(--ks-color-zinc-400);
+  }
+  .ks\:bg-zinc-400\/20 {
+    background-color: var(--ks-color-zinc-400);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-400) 20%, transparent);
+    }
+  }
+  .ks\:bg-zinc-400\/30 {
+    background-color: var(--ks-color-zinc-400);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-400) 30%, transparent);
+    }
+  }
+  .ks\:bg-zinc-400\/90 {
+    background-color: var(--ks-color-zinc-400);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-400) 90%, transparent);
+    }
   }
   .ks\:bg-zinc-500 {
     background-color: var(--ks-color-zinc-500);
@@ -463,6 +487,51 @@
   }
   .ks\:bg-zinc-800 {
     background-color: var(--ks-color-zinc-800);
+  }
+  .ks\:bg-zinc-900 {
+    background-color: var(--ks-color-zinc-900);
+  }
+  .ks\:bg-zinc-900\/5 {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 5%, transparent);
+    }
+  }
+  .ks\:bg-zinc-900\/6 {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 6%, transparent);
+    }
+  }
+  .ks\:bg-zinc-900\/8 {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 8%, transparent);
+    }
+  }
+  .ks\:bg-zinc-900\/10 {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 10%, transparent);
+    }
+  }
+  .ks\:bg-zinc-900\/12 {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 12%, transparent);
+    }
+  }
+  .ks\:bg-zinc-900\/20 {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 20%, transparent);
+    }
+  }
+  .ks\:bg-zinc-900\/\[5\] {
+    background-color: var(--ks-color-zinc-900);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--ks-color-zinc-900) 500%, transparent);
+    }
   }
   .ks\:bg-linear-to-r {
     --tw-gradient-position: to right;
@@ -587,6 +656,18 @@
   .ks\:p-4 {
     padding: calc(var(--ks-spacing) * 4);
   }
+  .ks\:p-\[2px\] {
+    padding: 2px;
+  }
+  .ks\:p-\[3px\] {
+    padding: 3px;
+  }
+  .ks\:p-\[4px\] {
+    padding: 4px;
+  }
+  .ks\:p-\[6px\] {
+    padding: 6px;
+  }
   .ks\:p-px {
     padding: 1px;
   }
@@ -652,6 +733,15 @@
     @supports (color: color-mix(in lab, red, red)) {
       color: color-mix(in oklab, var(--ks-color-white) 40%, transparent);
     }
+  }
+  .ks\:text-zinc-50 {
+    color: var(--ks-color-zinc-50);
+  }
+  .ks\:text-zinc-100 {
+    color: var(--ks-color-zinc-100);
+  }
+  .ks\:text-zinc-200 {
+    color: var(--ks-color-zinc-200);
   }
   .ks\:text-zinc-500 {
     color: var(--ks-color-zinc-500);

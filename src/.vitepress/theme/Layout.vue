@@ -89,11 +89,11 @@ const { site, frontmatter } = useData()
             </svg>
           </a>
           <div class="ks:flex ks:justify-end">
-            <div class="ks:flex ks:justify-end ks:gap-px ks:rounded-full ks:p-0.5 ks:bg-zinc-300">
-              <a href="" class="ks:py-2 ks:px-4 ks:font-medium ks:text-sm ks:rounded-full ks:bg-zinc-100 ks:text-zinc-800">
+            <div class="ks:flex ks:justify-end ks:gap-px ks:rounded-full ks:p-[3px] ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-100">
+              <a href="" class="ks:py-2 ks:px-4 ks:font-medium ks:text-sm ks:rounded-full ks:bg-zinc-400/30 ks:text-zinc-800">
                 <span>Projects</span>
               </a>
-              <a href="" class="ks:py-2 ks:px-4 ks:font-medium ks:text-sm ks:rounded-full">
+              <a href="" class="ks:py-2 ks:px-4 ks:font-medium ks:text-sm ks:rounded-full ks:text-zinc-700">
                 <span>Contact Me</span>
               </a>
             </div>
