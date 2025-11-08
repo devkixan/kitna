@@ -50,8 +50,9 @@ const { site } = useData()
               <div class="ks:mb-2 ks:text-center">
                 <h1 class="ks:text-3xl ks:text-shadow-sm ks:text-shadow-white/20 ks:text-primary-800">{{ site.title }}
                 </h1>
-                <span class="ks:text-primary-500 ks:text-shadow-sm ks:text-shadow-white/20 ks:block">Designer &
-                  Developer</span>
+                <span class="ks:text-primary-500 ks:text-shadow-sm ks:text-shadow-white/20 ks:block">
+                  Web Designer & Developer
+                </span>
               </div>
               <figure>
                 <img src="/profile.png" alt="Profile"
