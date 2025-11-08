@@ -16,9 +16,9 @@
           </div>
         </div>
 
-        <div class="ks:flex ks:flex-col ks:gap-6 ks:*:not-last:pb-6 ks:divide-y ks:divide-white/40">
+        <div class="ks:flex ks:flex-col ks:*:not-last:pb-6 ks:*:not-first:pt-6 ks:divide-y ks:divide-white/40">
           <template v-for="project in projects" :key="project.id">
-            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group">
+            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group ks:px-5 ks:odd:border-l ks:even:border-r ks:border-zinc-100">
               <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-primary-300 ks:object-cover ks:object-top-left ks:rounded-xl ks:[font-size:0]">
               <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
                 <div>
