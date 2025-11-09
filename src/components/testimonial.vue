@@ -33,10 +33,6 @@
   </section>
 </template>
 <script setup>
-import SlineWebsiteRedesign from '../images/works/sline-website-redesign.png';
-import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.jpg';
-import RayashipWebsiteFrontendDevelopment from '../images/works/rayaship-website-frontend-development.png';
-
 const testimonials = [
   {
     username: 'Mohamed G.',

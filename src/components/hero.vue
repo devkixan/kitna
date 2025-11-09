@@ -55,7 +55,7 @@ const { site } = useData()
                 </span>
               </div>
               <figure class="ks:w-full ks:aspect-square">
-                <img src="/profile.png" alt="Profile"
+                <img src="/profile.webp" alt="Profile"
                   class="ks:grayscale ks:size-full ks:object-cover ks:mask-alpha ks:mask-b-black ks:mask-b-from-50% ks:mask-t-transparent" />
               </figure>
             </div>

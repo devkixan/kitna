@@ -44,10 +44,10 @@
   </section>
 </template>
 <script setup>
-import SlineWebsiteRedesign from '../images/works/sline-website-redesign.png';
-import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.jpg';
-import RayashipWebsiteFrontendDevelopment from '../images/works/rayaship-website-frontend-development.png';
-import TheFireflyTechnologyWebsiteRedesign from '../images/works/the-firefly-technology-website-redesign.png';
+import SlineWebsiteRedesign from '../images/works/sline-website-redesign.webp';
+import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.webp';
+import RayashipWebsiteFrontendDevelopment from '../images/works/rayaship-website-frontend-development.webp';
+import TheFireflyTechnologyWebsiteRedesign from '../images/works/the-firefly-technology-website-redesign.webp';
 
 const projects = [
   {
