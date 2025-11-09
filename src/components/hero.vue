@@ -48,15 +48,16 @@ const { site } = useData()
 
             <div class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:relative">
               <div class="ks:mb-2 ks:text-center">
-                <h1 class="ks:text-3xl ks:text-shadow-sm ks:text-shadow-white/20 ks:text-primary-800">{{ site.title }}
+                <h1 class="ks:text-3xl ks:text-shadow-sm ks:text-shadow-white/20 ks:text-primary-800">
+                  {{ site.title }}
                 </h1>
                 <span class="ks:text-primary-500 ks:text-shadow-sm ks:text-shadow-white/20 ks:block">
                   Web Designer & Developer
                 </span>
               </div>
-              <figure>
+              <figure class="ks:w-full ks:aspect-square">
                 <img src="/profile.png" alt="Profile"
-                  class="ks:grayscale ks:w-full ks:h-full ks:object-cover ks:mask-alpha ks:mask-b-black ks:mask-b-from-50% ks:mask-t-transparent" />
+                  class="ks:grayscale ks:size-full ks:object-cover ks:mask-alpha ks:mask-b-black ks:mask-b-from-50% ks:mask-t-transparent" />
               </figure>
             </div>
           </div>
