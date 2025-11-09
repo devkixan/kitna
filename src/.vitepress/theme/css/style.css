@@ -754,6 +754,7 @@
         transition-property: all;
         transition-timing-function: var(--tw-ease, var(--ks-default-transition-timing-function));
         transition-duration: var(--tw-duration, var(--ks-default-transition-duration));
+        transition-delay: 300ms;
         --tw-duration: 1000ms;
         transition-duration: 1000ms;
         -webkit-user-select: none;
@@ -931,7 +932,7 @@
     transition-property: all;
     transition-timing-function: var(--tw-ease, var(--ks-default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--ks-default-transition-duration));
-    transition-delay: 75ms;
+    transition-delay: 200ms;
     --tw-duration: 700ms;
     transition-duration: 700ms;
     @starting-style {

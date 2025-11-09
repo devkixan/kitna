@@ -26,7 +26,7 @@
       @apply ks:w-sm ks:relative ks:z-0 ks:flex ks:flex-col ks:justify-center;
 
       .ks\:card-ribbon {
-        @apply ks:mx-auto ks:h-40 ks:pointer-events-none ks:select-none ks:flex ks:items-center ks:justify-center ks:starting:h-60 ks:duration-1000 ks:transition-all;
+        @apply ks:mx-auto ks:h-40 ks:pointer-events-none ks:select-none ks:flex ks:items-center ks:justify-center ks:starting:h-60 ks:duration-1000 ks:transition-all ks:delay-300;
 
         .ks\:card-ribbon-left {
           @apply ks:w-10 ks:-mr-4 ks:relative ks:-z-10 ks:origin-bottom-left ks:skew-x-20 ks:h-full  ks:bg-linear-to-t ks:from-primary-900 ks:from-5% ks:via-20% ks:via-primary-800 ks:to-100% ks:to-primary-800 ks:flex ks:items-center ks:justify-center;
@@ -66,6 +66,6 @@
   /* Project */
   .ks\:projects-section {
     @apply ks:-translate-y-40 ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0-10px_10px_rgba(0,0,0,0.028)];
-    @apply ks:starting:translate-y-0 ks:duration-700 ks:transition-all ks:delay-75;
+    @apply ks:starting:translate-y-0 ks:duration-700 ks:transition-all ks:delay-200;
   }
 }
