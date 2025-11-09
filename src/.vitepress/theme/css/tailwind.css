@@ -65,7 +65,7 @@
 
   /* Project */
   .ks\:projects-section {
-    @apply ks:-translate-y-40 ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0-10px_10px_rgba(0,0,0,0.028)];
-    @apply ks:starting:translate-y-0 ks:duration-700 ks:transition-all ks:delay-200;
+    @apply ks:-mt-40 ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0-10px_10px_rgba(0,0,0,0.028)];
+    @apply ks:starting:mt-0 ks:duration-700 ks:transition-all ks:delay-100;
   }
 }
