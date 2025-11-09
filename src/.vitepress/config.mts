@@ -11,6 +11,11 @@ export default defineConfig({
       { icon: 'PhGithubLogo', link: 'https://github.com/kishansunar00' },
     ],
   },
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
+  },
   head: [
     ['link', { rel: 'icon',  href: '/site/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '/site/apple-touch-icon.png' }],
