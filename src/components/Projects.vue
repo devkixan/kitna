@@ -18,7 +18,7 @@
 
         <div class="ks:flex ks:flex-col ks:*:pb-6 ks:*:last:pb-15 ks:*:not-first:pt-6 ks:divide-y ks:divide-white/40">
           <template v-for="project in projects" :key="project.name">
-            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group ks:px-2.5 ks:sm:px-5 ks:odd:not-first:border-l ks:even:border-r ks:border-zinc-100">
+            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group ks:px-2.5 ks:sm:px-5 ks:odd:not-first:border-l ks:even:border-r ks:border-zinc-100 ks:odd:not-first:shadow-[-0.5px_0.5px_0_0.5px_var(--ks-color-zinc-300)] ks:first:shadow-[0_1px_0_0_var(--ks-color-zinc-300)] ks:even:shadow-[0.5px_0.5px_0_0.5px_var(--ks-color-zinc-300)]">
               <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-primary-300 ks:object-cover ks:object-top-left ks:rounded-xl ks:[font-size:0]">
               <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
                 <div>
