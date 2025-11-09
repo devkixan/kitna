@@ -751,17 +751,8 @@
         height: calc(var(--ks-spacing) * 40);
         align-items: center;
         justify-content: center;
-        transition-property: all;
-        transition-timing-function: var(--tw-ease, var(--ks-default-transition-timing-function));
-        transition-duration: var(--tw-duration, var(--ks-default-transition-duration));
-        transition-delay: 300ms;
-        --tw-duration: 1000ms;
-        transition-duration: 1000ms;
         -webkit-user-select: none;
         user-select: none;
-        @starting-style {
-          height: calc(var(--ks-spacing) * 60);
-        }
         .ks\:card-ribbon-left {
           position: relative;
           z-index: calc(10 * -1);
@@ -928,15 +919,6 @@
     background-color: var(--ks-color-primary-200);
     --tw-shadow: 0-10px 10px var(--tw-shadow-color, rgba(0,0,0,0.028));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-    transition-property: all;
-    transition-timing-function: var(--tw-ease, var(--ks-default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--ks-default-transition-duration));
-    transition-delay: 100ms;
-    --tw-duration: 700ms;
-    transition-duration: 700ms;
-    @starting-style {
-      margin-top: calc(var(--ks-spacing) * 0);
-    }
   }
 }
 @property --tw-translate-x {
