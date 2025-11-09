@@ -7,8 +7,8 @@ export default defineConfig({
   description: "Portfolio",
   themeConfig: {
     socialLinks: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/kishan-sunar-b4884118a/' },
-      { icon: 'github', link: 'https://github.com/kishansunar00' },
+      { icon: 'PhLinkedinLogo', link: 'https://www.linkedin.com/in/kishan-sunar-b4884118a/' },
+      { icon: 'PhGithubLogo', link: 'https://github.com/kishansunar00' },
     ],
   },
   head: [

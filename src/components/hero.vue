@@ -38,12 +38,11 @@ const { site } = useData()
             </span>
 
             <div class="ks:absolute ks:top-2 ks:right-2 ks:flex ks:gap-2">
-              <a :href="site.themeConfig.socialLinks.linkedin ?? ''" target="_blank" class="ks:icon-btn">
-                <PhLinkedinLogo weight="bold" class="ks:size-5 ks:text-primary-700" />
-              </a>
-              <a :href="site.themeConfig.socialLinks.github ?? ''" target="_blank" class="ks:icon-btn">
-                <PhGithubLogo weight="bold" class="ks:size-5 ks:text-primary-700" />
-              </a>
+              <template v-for="link in site.themeConfig.socialLinks" :key="link.icon">
+                <a :href="link.link" target="_blank" class="ks:icon-btn">
+                  <component :is="link.icon" weight="bold" class="ks:size-5 ks:text-primary-700" />
+                </a>
+              </template>
             </div>
 
             <div class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:relative">
