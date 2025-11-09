@@ -39,7 +39,7 @@ const { site } = useData()
 
             <div class="ks:absolute ks:top-2 ks:right-2 ks:flex ks:gap-2">
               <template v-for="link in site.themeConfig.socialLinks" :key="link.icon">
-                <a :href="link.link" target="_blank" :name="link.link" class="ks:icon-btn">
+                <a :href="link.link" target="_blank" :aria-label="link.link" class="ks:icon-btn">
                   <component :is="link.icon" weight="bold" class="ks:size-5 ks:text-primary-700" />
                 </a>
               </template>

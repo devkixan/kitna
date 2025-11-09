@@ -10,7 +10,7 @@ const { site, frontmatter } = useData()
 </script>
 
 <template>
-  <div class="ks:h-screen ks:overflow-y-auto ks:motion-safe:scroll-smooth">
+  <div class="ks:h-screen ks:overflow-y-auto ks:motion-safe:scroll-smooth" role="main">
     <Hero />
 
     <Projects />
