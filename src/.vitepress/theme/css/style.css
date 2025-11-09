@@ -818,7 +818,7 @@
             @supports (color: color-mix(in lab, red, red)) {
               color: color-mix(in oklab, var(--ks-color-white) 40%, transparent);
             }
-            mix-blend-mode: color-burn;
+            mix-blend-mode: difference;
             writing-mode: sideways-lr;
           }
         }
