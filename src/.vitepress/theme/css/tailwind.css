@@ -17,3 +17,49 @@
   --color-primary-900: var(--ks-color-stone-900);
   --color-primary-950: var(--ks-color-stone-950);
 }
+
+@layer components {
+  .ks\:hero-section {
+    @apply ks:bg-primary-300 ks:sticky ks:z-0 ks:top-0;
+
+    .ks\:hero-card-wrapper {
+      @apply ks:w-sm ks:relative ks:z-0 ks:flex ks:flex-col ks:justify-center;
+
+      .ks\:card-ribbon {
+        @apply ks:mx-auto ks:h-40 ks:pointer-events-none ks:select-none ks:flex ks:items-center ks:justify-center;
+
+        .ks\:card-ribbon-left {
+          @apply ks:w-10 ks:-mr-4 ks:relative ks:-z-10 ks:origin-bottom-left ks:skew-x-20 ks:h-full  ks:bg-linear-to-t ks:from-primary-900 ks:from-5% ks:via-20% ks:via-primary-800 ks:to-100% ks:to-primary-800 ks:flex ks:items-center ks:justify-center;
+        }
+
+        .ks\:card-ribbon-right {
+          @apply ks:w-10 ks:-ml-4 ks:relative ks:z-20 ks:origin-bottom-right ks:-skew-x-20 ks:h-full ks:bg-linear-to-t ks:from-primary-800 ks:from-5% ks:via-20% ks:via-primary-600 ks:to-100% ks:to-primary-700 ks:rounded-br-sm ks:overflow-clip ks:flex ks:items-center ks:justify-center;
+          
+          .ks\:card-ribbon-right-text {
+            @apply ks:[writing-mode:sideways-lr] ks:text-white/40 ks:tracking-wider ks:text-nowrap ks:mix-blend-color-burn;
+          }
+        }
+      }
+
+      .ks\:hero-card {
+        @apply ks:overflow-clip ks:shadow-2xl ks:shadow-black/10 ks:bg-primary-200 ks:ring ks:ring-white/60 ks:rounded-4xl ks:p-4 ks:py-5;
+      
+        .ks\:hero-card-ribbon-hole {
+          @apply ks:text-xs ks:bg-primary-300 ks:ring ks:ring-white/60 ks:w-15 ks:h-3 ks:rounded-full ks:block;
+
+          .ks\:hero-card-ribbon-hole-inner {
+            @apply ks:rounded-bl-sm ks:mx-auto ks:relative ks:z-10 ks:skew-x-12 ks:bg-linear-to-t ks:from-primary-800 ks:from-5% ks:via-20% ks:via-primary-700 ks:to-100% ks:to-primary-700 ks:block;
+          }
+        }
+
+        .ks\:icon-btn {
+          @apply ks:size-10 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-primary-100 ks:rounded-full ks:hover:bg-primary-200;
+        }
+      }
+    }
+
+    .ks\:hero-section-noise {
+      @apply ks:rounded-b-3xl ks:pointer-events-none ks:absolute ks:inset-0 ks:size-full ks:mix-blend-overlay;
+    }
+  }
+}
