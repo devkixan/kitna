@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
-  title: "Kishan Sunar",
-  description: "Portfolio",
+  title: "Kishan S. - Frontend Developer & UI/UX Designer in Pokhara, Nepal",
+  description: "Frontend Developer & UI/UX Designer in Pokhara, Nepal",
   themeConfig: {
     socialLinks: [
       { icon: 'PhLinkedinLogo', link: 'https://www.linkedin.com/in/kishan-sunar-b4884118a/' },

@@ -10,7 +10,7 @@
             </h2>
           </div>
           <div class="ks:sm:col-span-3">
-            <p class="ks:text-zinc-600">
+            <p class="ks:text-zinc-800">
               A showcase of digital journeys crafted for agencies, startups, and brands that value creativity with purpose.
             </p>
           </div>
@@ -30,7 +30,7 @@
                   </p>
                 </div>
                 <div class="ks:shrink-0">
-                  <a :href="project.link" target="_blank"  class="ks:ring ks:ring-primary-100 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
+                  <a :href="project.link" target="_blank" :name="project.name" class="ks:ring ks:ring-primary-100 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
                     <span>View</span>
                     <PhArrowLineUpRight weight="bold" class="ks:size-4 ks:text-primary-500" />
                   </a>

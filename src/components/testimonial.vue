@@ -10,7 +10,7 @@
             </h2>
           </div>
           <div class="ks:sm:col-span-3">
-            <p class="ks:text-zinc-600">
+            <p class="ks:text-zinc-800">
               Clients value professionalism and timely, high-quality work. They trust in reliable and creative results.
             </p>
           </div>

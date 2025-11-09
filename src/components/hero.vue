@@ -16,7 +16,7 @@ const { site } = useData()
             </div>
             <div
               class="ks:card-ribbon-right">
-              <span class="ks:card-ribbon-right-text">
+              <span class="ks:card-ribbon-right-text" aria-hidden="true">
                 #FrontendDeveloper #UI/UX Designer #Salesforce Developer
               </span>
             </div>
@@ -39,7 +39,7 @@ const { site } = useData()
 
             <div class="ks:absolute ks:top-2 ks:right-2 ks:flex ks:gap-2">
               <template v-for="link in site.themeConfig.socialLinks" :key="link.icon">
-                <a :href="link.link" target="_blank" class="ks:icon-btn">
+                <a :href="link.link" target="_blank" :name="link.link" class="ks:icon-btn">
                   <component :is="link.icon" weight="bold" class="ks:size-5 ks:text-primary-700" />
                 </a>
               </template>
@@ -48,9 +48,9 @@ const { site } = useData()
             <div class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:relative">
               <div class="ks:mb-2 ks:text-center">
                 <h1 class="ks:text-3xl ks:text-shadow-sm ks:text-shadow-white/20 ks:text-primary-800">
-                  {{ site.title }}
+                  Kishan Sunar
                 </h1>
-                <span class="ks:text-primary-500 ks:text-shadow-sm ks:text-shadow-white/20 ks:block">
+                <span class="ks:text-primary-600 ks:text-shadow-sm ks:text-shadow-white/20 ks:block">
                   Web Designer & Developer
                 </span>
               </div>
