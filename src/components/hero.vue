@@ -33,15 +33,15 @@ const { site } = useData()
             </div>
 
 
-            <a href="" class="ks:absolute ks:top-2 ks:left-2 ks:icon-btn">
+            <span class="ks:absolute ks:top-2 ks:left-2 ks:icon-btn">
               <Logo class="ks:size-6 ks:text-primary-700" />
-            </a>
+            </span>
 
             <div class="ks:absolute ks:top-2 ks:right-2 ks:flex ks:gap-2">
-              <a href="" class="ks:icon-btn">
+              <a :href="site.themeConfig.socialLinks.linkedin ?? ''" target="_blank" class="ks:icon-btn">
                 <PhLinkedinLogo weight="bold" class="ks:size-5 ks:text-primary-700" />
               </a>
-              <a :href="site.themeConfig.socialLinks.github ?? ''" class="ks:icon-btn">
+              <a :href="site.themeConfig.socialLinks.github ?? ''" target="_blank" class="ks:icon-btn">
                 <PhGithubLogo weight="bold" class="ks:size-5 ks:text-primary-700" />
               </a>
             </div>
