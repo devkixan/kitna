@@ -30,7 +30,7 @@
                   </p>
                 </div>
                 <div class="ks:shrink-0">
-                  <a :href="project.link" target="_blank" :aria-label="`View ${project.name}`" class="ks:ring ks:ring-primary-100 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
+                  <a :href="project.link" target="_blank" :aria-label="`View ${project.name}`" class="ks:ring ks:ring-zinc-400/20 ks:border ks:border-white/60 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
                     <span>View</span>
                     <PhArrowLineUpRight weight="bold" class="ks:size-4 ks:text-primary-500" />
                   </a>

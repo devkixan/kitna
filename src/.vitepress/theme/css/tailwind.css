@@ -42,7 +42,7 @@
       }
 
       .ks\:hero-card {
-        @apply ks:overflow-clip ks:shadow-2xl ks:shadow-black/10 ks:bg-primary-200 ks:ring ks:ring-white/60 ks:rounded-4xl ks:p-4 ks:py-5;
+        @apply ks:overflow-clip ks:shadow-2xl ks:shadow-black/10 ks:bg-primary-200 ks:ring ks:ring-zinc-400/15 ks:border ks:border-white/50 ks:rounded-4xl ks:p-4 ks:py-5;
       
         .ks\:hero-card-ribbon-hole {
           @apply ks:text-xs ks:bg-primary-300 ks:ring ks:ring-white/60 ks:w-15 ks:h-3 ks:rounded-full ks:block;
@@ -53,7 +53,7 @@
         }
 
         .ks\:icon-btn {
-          @apply ks:size-10 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-primary-100 ks:rounded-full ks:hover:bg-primary-200;
+          @apply ks:size-10 ks:flex ks:items-center ks:justify-center ks:bg-white/20 ks:backdrop-blur-2xl ks:ring ks:ring-zinc-400/15 ks:border ks:border-white/50 ks:rounded-full ks:hover:bg-primary-200;
         }
       }
     }
@@ -65,7 +65,7 @@
 
   /* Project */
   .ks\:projects-section {
-    @apply ks:bg-primary-200 ks:relative;
+    @apply ks:-mt-40 ks:bg-primary-200 ks:relative ks:border-t ks:border-zinc-100 ks:shadow-[0_-0.5px_0_1px_var(--ks-color-zinc-300)];
   }
 
   /* Arc */

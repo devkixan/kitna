@@ -13,8 +13,6 @@ const { site, frontmatter } = useData()
 <template>
   <div class="ks:h-screen ks:overflow-y-auto ks:motion-safe:scroll-smooth" role="main">
     <Hero />
-
-    <Arc class="ks:-mt-40"/>
     
     <Projects />
     

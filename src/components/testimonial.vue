@@ -18,7 +18,7 @@
 
         <div class="ks:grid ks:sm:grid-cols-2 ks:gap-4 ks:*:rounded-xl ks:*:p-8">
           <template v-for="item in testimonials" :key="item.name">
-            <div class="ks:bg-zinc-100/50 ks:not-first:ring ks:not-first:ring-zinc-100 ks:backdrop-blur-md ks:first:bg-zinc-800 ks:first:text-white ks:group ks:first:row-span-2 ks:flex ks:flex-col ks:justify-between">
+            <div class="ks:bg-zinc-100/50 ks:not-first:border ks:not-first:border-white/60 ks:not-first:ring ks:not-first:ring-zinc-400/20 ks:backdrop-blur-md ks:first:bg-zinc-800 ks:first:text-white ks:group ks:first:row-span-2 ks:flex ks:flex-col ks:justify-between">
               <p class="ks:mb-4 ks:group-first:text-lg">
                 {{ item.description }}
               </p>
