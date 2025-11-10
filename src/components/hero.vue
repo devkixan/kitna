@@ -23,7 +23,7 @@ const { site } = useData()
           </div>
 
           <div
-            class="ks:-mt-7 ks:relative ks:hero-card">
+            class="ks:-mt-[30px] ks:relative ks:hero-card">
             <span
               class="ks:absolute ks:inset-0 ks:bg-linear-to-r ks:via-white/10 ks:from-primary-200 ks:to-primary-200 ks:rounded-[inherit]"></span>
 

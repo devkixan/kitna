@@ -2,7 +2,7 @@
   <section
     class="ks:projects-section">
     <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
-      <div class="ks:pt-10 ks:sm:pt-15">
+      <div class="ks:pt-10">
         <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:mb-15">
           <div>
             <h2 class="ks:text-2xl ks:text-primary-900 ks:font-medium">
@@ -10,7 +10,7 @@
             </h2>
           </div>
           <div class="ks:sm:col-span-3">
-            <p class="ks:text-zinc-800">
+            <p class="ks:text-primary-800">
               A showcase of digital journeys crafted for agencies, startups, and brands that value creativity with purpose.
             </p>
           </div>
@@ -18,19 +18,19 @@
 
         <div class="ks:flex ks:flex-col ks:*:pb-6 ks:*:last:pb-15 ks:*:not-first:pt-6 ks:divide-y ks:divide-white/40">
           <template v-for="project in projects" :key="project.name">
-            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group ks:px-2.5 ks:sm:px-5 ks:odd:not-first:border-l ks:even:border-r ks:border-zinc-100 ks:odd:not-first:shadow-[-0.5px_0.5px_0_0.5px_var(--ks-color-zinc-300)] ks:first:shadow-[0_1px_0_0_var(--ks-color-zinc-300)] ks:even:shadow-[0.5px_0.5px_0_0.5px_var(--ks-color-zinc-300)]">
+            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group ks:px-2.5 ks:sm:px-5 ks:odd:not-first:border-l ks:even:border-r ks:border-primary-100 ks:odd:not-first:shadow-[-0.5px_0.5px_0_0.5px_var(--ks-color-primary-300)] ks:first:shadow-[0_1px_0_0_var(--ks-color-primary-300)] ks:even:shadow-[0.5px_0.5px_0_0.5px_var(--ks-color-primary-300)]">
               <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-primary-300 ks:object-cover ks:object-top-left ks:rounded-xl ks:[font-size:0]">
               <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
                 <div>
                   <h3 class="ks:font-medium ks:mb-px ks:group-hover:text-blue-900 ks:transition ks:duration-300">
                     {{ project.name }}
                   </h3>
-                  <p class="ks:text-zinc-500" aria-hidden="true">
+                  <p class="ks:text-primary-500" aria-hidden="true">
                     {{ project.description }}
                   </p>
                 </div>
                 <div class="ks:shrink-0">
-                  <a :href="project.link" target="_blank" :aria-label="`View ${project.name}`" class="ks:ring ks:ring-zinc-400/20 ks:border ks:border-white/60 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
+                  <a :href="project.link" target="_blank" :aria-label="`View ${project.name}`" class="ks:ring ks:ring-primary-400/20 ks:border ks:border-white/60 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
                     <span>View</span>
                     <PhArrowLineUpRight weight="bold" class="ks:size-4 ks:text-primary-500" />
                   </a>
