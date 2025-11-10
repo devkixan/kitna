@@ -32,5 +32,10 @@ export default defineConfig({
     ['meta', { name: 'googlebot', content: 'index, follow' }],
     ['meta', { name: 'google', content: 'notranslate' }],
     ['meta', { name: 'google', content: 'notranslate' }],
+
+    ['meta', { name: 'generator', content: 'made with love by Kishan Sunar' }],
   ],
+  sitemap: {
+    hostname: 'https://kishansunar.com.np'
+  }
 })
