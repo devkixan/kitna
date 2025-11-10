@@ -11,7 +11,7 @@
           </div>
           <div class="ks:sm:col-span-3">
             <p class="ks:text-zinc-800">
-              Clients value professionalism and timely, high-quality work. They trust in reliable and creative results.
+              Recognized for professionalism and quality, each project delivers creative solutions that inspire trust. Every outcome is crafted with precision and intent.
             </p>
           </div>
         </div>

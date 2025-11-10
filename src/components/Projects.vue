@@ -11,7 +11,7 @@
           </div>
           <div class="ks:sm:col-span-3">
             <p class="ks:text-primary-800">
-              A showcase of digital journeys crafted for agencies, startups, and brands that value creativity with purpose.
+              Explore a selection of featured works built with creativity and intent. From redesigns to frontend builds, every detail is made to connect.
             </p>
           </div>
         </div>
