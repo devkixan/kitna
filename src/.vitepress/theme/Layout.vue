@@ -12,6 +12,14 @@ const { site, frontmatter } = useData()
 
 <template>
   <div class="ks:h-screen ks:overflow-y-auto ks:motion-safe:scroll-smooth" role="main">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PHJB2C2D');</script>
+    <!-- End Google Tag Manager -->
+
     <Hero />
     
     <Projects />
@@ -19,15 +27,10 @@ const { site, frontmatter } = useData()
     <Testimonial />
 
     <Footer />
-  </div>
 
-  <!-- <div v-if="frontmatter.home" class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:h-screen">
-    <h1 class="ks:text-4xl ks:font-bold">{{ site.title }}</h1>
-    <p class="ks:text-lg">{{ site.description }}</p>
-    <h2 class="ks:text-2xl ks:font-bold">On Progress</h2>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHJB2C2D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </div>
-  <div v-else class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:h-screen">
-    <a href="/" class="ks:text-lg">Home</a>
-    <Content />
-  </div> -->
 </template>

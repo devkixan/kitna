@@ -33,7 +33,7 @@ export default defineConfig({
     ['meta', { name: 'google', content: 'notranslate' }],
     ['meta', { name: 'google', content: 'notranslate' }],
 
-    ['meta', { name: 'generator', content: 'made with love by Kishan Sunar' }],
+    ['meta', { name: 'generator', content: 'VitePress' }],
   ],
   sitemap: {
     hostname: 'https://kishansunar.com.np'
