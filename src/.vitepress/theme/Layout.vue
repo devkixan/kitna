@@ -4,6 +4,7 @@ import Hero from '../../components/hero.vue'
 import Projects from '../../components/Projects.vue'
 import Footer from '../../components/footer.vue'
 import Testimonial from '../../components/testimonial.vue'
+import Arc from '../../components/arc.vue'
 
 // https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter } = useData()
@@ -13,6 +14,8 @@ const { site, frontmatter } = useData()
   <div class="ks:h-screen ks:overflow-y-auto ks:motion-safe:scroll-smooth" role="main">
     <Hero />
 
+    <Arc class="ks:-mt-40"/>
+    
     <Projects />
     
     <Testimonial />

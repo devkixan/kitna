@@ -65,6 +65,16 @@
 
   /* Project */
   .ks\:projects-section {
-    @apply ks:-mt-40 ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0-10px_10px_rgba(0,0,0,0.028)];
+    @apply ks:bg-primary-200 ks:relative;
+  }
+
+  /* Arc */
+  .ks\:arc-wrapper {
+    @apply ks:relative ks:z-0 ks:h-30 ks:overflow-clip;
+
+    .ks\:arc-inner {
+      @apply ks:absolute ks:bg-linear-to-t ks:from-black/5 ks:from-[-105%] ks:to-50% ks:bottom-5 ks:rounded-b-[500%] ks:left-0 ks:w-full ks:h-full ks:border-b ks:border-white/50;
+      @apply ks:shadow-[0_0_0_200px_var(--ks-color-primary-200)];
+    }
   }
 }

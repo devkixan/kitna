@@ -2,7 +2,7 @@
   <section
     class="ks:projects-section">
     <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
-      <div class="ks:pt-15">
+      <div class="ks:pt-10 ks:sm:pt-15">
         <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:mb-15">
           <div>
             <h2 class="ks:text-2xl ks:text-primary-900 ks:font-medium">
