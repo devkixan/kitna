@@ -48,6 +48,7 @@ import SlineWebsiteRedesign from '../images/works/sline-website-redesign.webp';
 import ZeewFoodAppRedesign from '../images/works/zeew-food-app-redesign.webp';
 import RayashipWebsiteFrontendDevelopment from '../images/works/rayaship-website-frontend-development.webp';
 import TheFireflyTechnologyWebsiteRedesign from '../images/works/the-firefly-technology-website-redesign.webp';
+import UnitedTransportWebsiteFrontendDevelopment from '../images/works/go2uta-website.webp';
 
 const projects = [
   {
@@ -67,6 +68,12 @@ const projects = [
     description: "Developed Rayaship's website frontend on the Salesforce platform, creating a responsive and user-friendly interface.",
     image: RayashipWebsiteFrontendDevelopment,
     link: 'https://www.rayaship.com/'
+  },
+  {
+    name: 'United Transport Website Frontend Development',
+    description: "Developed United Transport's website frontend on the Salesforce platform, creating a responsive and user-friendly interface.",
+    image: UnitedTransportWebsiteFrontendDevelopment,
+    link: 'https://www.go2uta.com/'
   },
   {
     name: 'The Firefly Technology Website Redesign',
