@@ -1,6 +1,5 @@
 <template>
-  <section
-    class="ks:border-t ks:border-white/50 ks:bg-primary-200 ks:relative ks:z-0 ks:shadow-[0_-1px_0_0_var(--ks-color-zinc-300)]">
+  <section class="ks:bg-primary-200 ks:relative ks:z-0 ks:py-10">
     <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
       <div class="ks:py-15">
         <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:mb-10">

@@ -65,7 +65,7 @@
 
   /* Project */
   .ks\:projects-section {
-    @apply ks:-mt-40 ks:bg-primary-200 ks:relative ks:border-t ks:border-primary-100 ks:shadow-[0_-0.5px_0_1px_var(--ks-color-primary-300)];
+    @apply ks:-mt-25 ks:bg-primary-200 ks:relative ks:shadow-[0_-0.5px_12px_var(--ks-color-primary-300)];
   }
 
   /* Arc */

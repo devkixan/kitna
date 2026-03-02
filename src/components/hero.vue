@@ -47,34 +47,21 @@ const { site } = useData()
 
             <div class="ks:flex ks:flex-col ks:items-center ks:justify-center ks:relative">
               <div class="ks:mb-2 ks:text-center">
-                <h1 class="ks:text-3xl ks:text-shadow-sm ks:text-shadow-white/20 ks:text-primary-800">
+                <h1 class="ks:text-3xl ks:font-medium ks:text-shadow-white/20 ks:text-primary-800">
                   Kishan Sunar
                 </h1>
-                <span class="ks:text-primary-600 ks:text-shadow-sm ks:text-shadow-white/20 ks:block">
+                <span class="ks:text-primary-600 ks:text-shadow-white/20 ks:block">
                   Web Designer & Developer
                 </span>
               </div>
               <figure class="ks:w-full ks:aspect-square">
-                <img src="/profile.webp" alt="Profile"
-                  class="ks:grayscale ks:size-full ks:object-cover ks:mask-alpha ks:mask-b-black ks:mask-b-from-50% ks:mask-t-transparent" />
+                <img src="/kishan-sunar-profile.webp" alt="Designer and Developer Kishan Sunar Profile"
+                  class="ks:size-full ks:object-cover ks:mask-alpha ks:mask-b-black ks:mask-b-from-50% ks:mask-t-transparent" />
               </figure>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <svg class="ks:hero-section-noise"
-      xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
-      height="100%" preserveAspectRatio="none">
-      <defs>
-        <filter id="noise-filter">
-          <feTurbulence type="turbulence" baseFrequency="0.6" numOctaves="1" stitchTiles="stitch" result="noise">
-          </feTurbulence>
-          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" result="coloprimaryNoise">
-          </feColorMatrix>
-        </filter>
-      </defs>
-      <rect width="100%" height="100%" filter="url(#noise-filter)"></rect>
-    </svg>
   </section>
 </template>

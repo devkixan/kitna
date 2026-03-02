@@ -3,7 +3,7 @@
     class="ks:projects-section">
     <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
       <div>
-        <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:pb-15 ks:pt-15 ks:border-r ks:border-b ks:border-primary-100 ks:shadow-[inset_-0.5px_-0.5px_0_0.5px_var(--ks-color-primary-300)]">
+        <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:pb-15 ks:pt-15">
           <div>
             <h2 class="ks:text-2xl ks:text-primary-900 ks:font-medium">
               Featured Work
@@ -16,9 +16,10 @@
           </div>
         </div>
 
-        <div class="ks:flex ks:flex-col ks:*:pb-6 ks:*:last:pb-15 ks:*:pt-6 ks:divide-y ks:divide-white/40">
+        <div class="ks:flex ks:flex-col ks:gap-10">
           <template v-for="project in projects" :key="project.name">
-            <article class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group ks:px-2.5 ks:sm:px-5 ks:odd:border-l ks:even:border-r ks:border-primary-100 ks:odd:shadow-[-0.5px_0.5px_0_0.5px_var(--ks-color-primary-300)] ks:even:not-first:shadow-[inset_-0.5px_-0.5px_0_0.5px_var(--ks-color-primary-300)]">
+            <article class="ks:group ks:relative ks:z-0 ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group">
+              <div class="ks:absolute ks:-inset-2 ks:bg-white/40 ks:rounded-3xl ks:-z-10 ks:not-group-hover:opacity-0 ks:transition ks:duration-200"></div>
               <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-primary-300 ks:object-cover ks:object-top-left ks:rounded-xl ks:[font-size:0]">
               <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
                 <div>
