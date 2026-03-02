@@ -1,45 +1,38 @@
 <template>
-  <section
-    class="ks:projects-section">
+  <section class="ks:projects-section">
     <div class="ks:container ks:max-w-4xl ks:mx-auto ks:px-4">
-      <div>
-        <div class="ks:grid ks:sm:grid-cols-4 ks:gap-4 ks:sm:gap-10 ks:pb-15 ks:pt-15">
-          <div>
-            <h2 class="ks:text-2xl ks:text-primary-900 ks:font-medium">
-              Featured Work
-            </h2>
-          </div>
+      <div class="ks:grid ks:md:grid-cols-2 ks:gap-10">
+        <div class="ks:py-20">
+          <h2 class="ks:mb-5 ks:text-4xl ks:text-primary-900 ks:font-medium">
+            Featured Work
+          </h2>
           <div class="ks:sm:col-span-3">
-            <p class="ks:text-primary-800 ks:pr-5">
+            <p class="ks:text-primary-800 ks:text-lg ks:pr-5">
               Explore a selection of featured works built with creativity and intent. From redesigns to frontend builds, every detail is made to connect.
             </p>
           </div>
         </div>
-
-        <div class="ks:flex ks:flex-col ks:gap-10">
-          <template v-for="project in projects" :key="project.name">
-            <article class="ks:group ks:relative ks:z-0 ks:flex ks:not-sm:flex-col ks:sm:items-center ks:gap-x-10 ks:gap-y-4 ks:group">
-              <div class="ks:absolute ks:-inset-2 ks:bg-white/40 ks:rounded-3xl ks:-z-10 ks:not-group-hover:opacity-0 ks:transition ks:duration-200"></div>
-              <img :src="project.image" :alt="project.name" class="ks:sm:w-50 ks:grayscale ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-primary-300 ks:object-cover ks:object-top-left ks:rounded-xl ks:[font-size:0]">
-              <div class="ks:flex ks:not-sm:flex-col ks:sm:items-center ks:justify-between ks:w-full ks:gap-4 ks:mb-1">
-                <div>
-                  <h3 class="ks:font-medium ks:mb-px ks:group-hover:text-blue-900 ks:transition ks:duration-300">
-                    {{ project.name }}
-                  </h3>
-                  <p class="ks:text-primary-500" aria-hidden="true">
-                    {{ project.description }}
-                  </p>
-                </div>
-                <div class="ks:shrink-0">
-                  <a :href="project.link" target="_blank" :aria-label="`View ${project.name}`" class="ks:ring ks:ring-primary-400/20 ks:border ks:border-white/60 ks:py-2 ks:px-3 ks:rounded-full ks:transition ks:text-sm ks:font-medium ks:bg-primary-400/5 ks:hover:bg-primary-400/15 ks:shadow-inner ks:shadow-white/20 ks:inline-flex ks:items-center ks:gap-1">
-                    <span>View</span>
-                    <PhArrowLineUpRight weight="bold" class="ks:size-4 ks:text-primary-500" />
-                  </a>
-                </div>
+        <template v-for="project in projects" :key="project.name">
+          <figure class="ks:group ks:bg-white ks:rounded-xl ks:relative ks:z-0 ks:flex ks:flex-col ks:gap-x-10 ks:group">
+            <img :src="project.image" :alt="project.name" class="ks:group-hover:grayscale-0 ks:w-full ks:aspect-video ks:bg-primary-300 ks:object-cover ks:object-top-left ks:rounded-t-xl ks:[font-size:0]">
+            <figcaption class="ks:p-5 ks:h-full ks:flex ks:flex-col ks:justify-between">
+              <div class="ks:mb-4">
+                <h3 class="ks:font-medium ks:text-lg ks:mb-2 ks:group-hover:text-blue-900 ks:transition ks:duration-300">
+                  {{ project.name }}
+                </h3>
+                <p class="ks:text-primary-500" aria-hidden="true">
+                  {{ project.description }}
+                </p>
               </div>
-            </article>
-          </template>
-        </div>
+              <div class="ks:shrink-0">
+                <a :href="project.link" target="_blank" :aria-label="`View ${project.name}`" class="ks:py-2.5 ks:rounded-full ks:underline-offset-4 ks:flex ks:justify-center-safe ks:items-center ks:gap-2 ks:ring ks:ring-zinc-300 ks:hover:bg-zinc-300/10">
+                  <span>View</span>
+                  <PhArrowLineUpRight weight="bold" class="ks:size-4 ks:text-primary-500" />
+                </a>
+              </div>
+            </figcaption>
+          </figure>
+        </template>
       </div>
     </div>
   </section>
