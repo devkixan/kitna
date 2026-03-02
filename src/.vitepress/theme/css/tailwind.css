@@ -5,17 +5,17 @@
   --font-sans: "Instrument Sans", sans-serif;
   --font-mono: "Instrument Sans", sans-serif;
 
-  --color-primary-50: var(--ks-color-stone-50);
-  --color-primary-100: var(--ks-color-stone-100);
-  --color-primary-200: var(--ks-color-stone-200);
-  --color-primary-300: var(--ks-color-stone-300);
-  --color-primary-400: var(--ks-color-stone-400);
-  --color-primary-500: var(--ks-color-stone-500);
-  --color-primary-600: var(--ks-color-stone-600);
-  --color-primary-700: var(--ks-color-stone-700);
-  --color-primary-800: var(--ks-color-stone-800);
-  --color-primary-900: var(--ks-color-stone-900);
-  --color-primary-950: var(--ks-color-stone-950);
+  --color-primary-50: var(--ks-color-slate-50);
+  --color-primary-100: var(--ks-color-slate-100);
+  --color-primary-200: var(--ks-color-slate-200);
+  --color-primary-300: var(--ks-color-slate-300);
+  --color-primary-400: var(--ks-color-slate-400);
+  --color-primary-500: var(--ks-color-slate-500);
+  --color-primary-600: var(--ks-color-slate-600);
+  --color-primary-700: var(--ks-color-slate-700);
+  --color-primary-800: var(--ks-color-slate-800);
+  --color-primary-900: var(--ks-color-slate-900);
+  --color-primary-950: var(--ks-color-slate-950);
 }
 
 @layer components {
@@ -36,7 +36,7 @@
           @apply ks:w-10 ks:-ml-4 ks:relative ks:z-20 ks:origin-bottom-right ks:-skew-x-20 ks:h-full ks:bg-linear-to-t ks:from-primary-800 ks:from-5% ks:via-20% ks:via-primary-600 ks:to-100% ks:to-primary-700 ks:rounded-br-sm ks:overflow-clip ks:flex ks:items-center ks:justify-center;
           
           .ks\:card-ribbon-right-text {
-            @apply ks:[writing-mode:sideways-lr] ks:text-white/40 ks:tracking-wider ks:text-nowrap ks:mix-blend-difference;
+            @apply ks:[writing-mode:sideways-lr] ks:text-white/40 ks:tracking-wider ks:text-nowrap ks:mix-blend-color-dodge;
           }
         }
       }
