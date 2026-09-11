@@ -1,16 +1,28 @@
 {
-  "license": "MIT",
-  "dependencies": {
-    "@phosphor-icons/vue": "^2.2.1",
-    "@tailwindcss/cli": "^4.1.17",
-    "tailwindcss": "^4.1.17",
-    "vitepress": "^2.0.0-alpha"
+  "name": "kitna",
+  "version": "1.0.0",
+  "description": "personal-site",
+  "keywords": [
+    "kishan-site"
+  ],
+  "homepage": "https://github.com/devkixan/kitna#readme",
+  "bugs": {
+    "url": "https://github.com/devkixan/kitna/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkixan/kitna.git"
+  },
+  "license": "ISC",
+  "author": "Kishan Sunar",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
-    "css": "tailwindcss -i ./src/.vitepress/theme/css/tailwind.css -o ./src/.vitepress/theme/css/style.css --watch",
-    "css:build": "tailwindcss -i ./src/.vitepress/theme/css/tailwind.css -o ./src/.vitepress/theme/css/style.css",
-    "dev": "vitepress dev src",
-    "build": "vitepress build src",
-    "preview": "vitepress preview src"
+    "dev": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/portfolio.css --watch",
+    "build": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/portfolio.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
   }
 }

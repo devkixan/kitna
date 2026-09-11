@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/InterVariable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-sans: "Inter", sans-serif;
+    
+    --color-primary: oklch(85.264% 0.19292 117.77);
+    --color-primary-50: oklch(95.357% 0.07635 113.36);
+    --color-primary-100: oklch(94.221% 0.09614 114.45);
+    --color-primary-200: oklch(92.202% 0.13252 115.17);
+    --color-primary-300: oklch(90.031% 0.16228 116);
+    --color-primary-400: oklch(88.058% 0.18429 116.58);
+    --color-primary-500: oklch(85.264% 0.19292 117.77);
+    --color-primary-600: oklch(70.542% 0.15833 117.52);
+    --color-primary-700: oklch(54.999% 0.12194 117.08);
+    --color-primary-800: oklch(38.435% 0.08346 117.78);
+    --color-primary-900: oklch(19.536% 0.03766 116.51);
+    --color-primary-950: oklch(0% 0 none);
+}
+
+@utility font-feature {
+    font-feature-settings: "salt" 1
+}
